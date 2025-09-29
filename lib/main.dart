@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_1/tugas.dart';
+import 'package:flutter_1/Layout_Widget.dart';
 
 void main() {
   runApp(const MainApp());
@@ -13,7 +13,7 @@ class MainApp extends StatelessWidget {
     return const MaterialApp(
       title: "aplikasi flutter",
       debugShowCheckedModeBanner: false,
-      home: tugas(),
+      home: LayoutWidget(),
     );
   }
 }
