@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_1/Layout_Widget.dart';
+import 'package:flutter_1/ListView.dart';
+
+
 
 void main() {
   runApp(const MainApp());
@@ -13,7 +15,7 @@ class MainApp extends StatelessWidget {
     return const MaterialApp(
       title: "aplikasi flutter",
       debugShowCheckedModeBanner: false,
-      home: LayoutWidget(),
+      home:LthnListGrid(),
     );
   }
 }
